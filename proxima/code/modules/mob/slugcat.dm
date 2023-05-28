@@ -62,7 +62,8 @@
 		'proxima/sound/effects/slugmeow.ogg',
 		'proxima/sound/effects/slughitmarker.ogg',
 		'proxima/sound/effects/slugslap.ogg')
+
 	if(hiding)
 		hiding = FALSE
-	playsound(user.loc, deathsfx, 50, 0)
+	playsound(src, deathsfx, 50, 0)
 	. = ..()
