@@ -35,7 +35,7 @@
 	holder_type = /obj/item/holder/cat/fluff/slugcat/newt
 	say_list_type = /datum/say_list/cat/slugcat
 
-/mob/living/simple_animal/passive/cat/fluff/slugcat/death(atom/user)
+/mob/living/simple_animal/passive/cat/fluff/slugcat/death()
 	var/deathsfx = pick(
 		'proxima/sound/effects/slugpipe.ogg',
 		'proxima/sound/effects/slugmeow.ogg',
