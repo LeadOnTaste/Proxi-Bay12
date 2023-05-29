@@ -56,7 +56,7 @@
 					set_AI_busy(FALSE)
 					return
 
-/mob/living/simple_animal/passive/cat/fluff/slugcat/death(atom/user)
+/mob/living/simple_animal/passive/cat/fluff/slugcat/death()
 	var/deathsfx = pick(
 		'proxima/sound/effects/slugpipe.ogg',
 		'proxima/sound/effects/slugmeow.ogg',
